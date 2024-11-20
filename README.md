@@ -43,6 +43,8 @@ To run this code, you'll need to install the following dependencies:
 
 *pip install opencv-python (4.10.0.84)*
 
+*Pickle* - A Python module used for saving and loading the parking space positions. (It's part of Python's standard library, so no need for installation.)
+
 ## The Whys:
 **OpenCV** is the go-to library for computer vision, providing efficient tools for video capture, image processing, and object detection (e.g., thresholding, drawing rectangles), making it ideal for this task over alternatives like Pillow or scikit-image.\
 **pickle** serializes Python objects (like parking space positions) to store and reload them easily without the need for complex databases.\
