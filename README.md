@@ -35,10 +35,10 @@ The positions of parking spaces are stored in a file, so even if the system is r
 The system runs in a loop until the user decides to stop it, typically by pressing a key, allowing for manual interruption of the process.
 
 ## The Whys:
-**OpenCV** is the go-to library for computer vision, providing efficient tools for video capture, image processing, and object detection (e.g., thresholding, drawing rectangles), making it ideal for this task over alternatives like Pillow or scikit-image.
-**pickle** serializes Python objects (like parking space positions) to store and reload them easily without the need for complex databases.
-**cvzone** A higher-level OpenCV wrapper that simplifies tasks like text overlays and drawing rectangles which reduces code complexity and enhances visual output without writing custom OpenCV code for each annotation. 
-**numpy** Essential for array manipulation in image processing, enabling efficient operations like dilation integrating seamlessly with OpenCV.
-**Why Grayscale & Thresholding:** Simplifies image data for detecting occupancy by reducing unnecessary color information and improving contrast.
-**Why Pixel Count:** A simple, fast method to determine if a parking space is free based on pixel activity, avoiding the complexity of object detection.
-**Why Rectangle detection:** using predefined coordinates is more efficient than dynamic detection and avoids the complexity of training a machine learning model, offering a simpler, manually defined solution.
+**OpenCV** is the go-to library for computer vision, providing efficient tools for video capture, image processing, and object detection (e.g., thresholding, drawing rectangles), making it ideal for this task over alternatives like Pillow or scikit-image.\
+**pickle** serializes Python objects (like parking space positions) to store and reload them easily without the need for complex databases.\
+**cvzone** A higher-level OpenCV wrapper that simplifies tasks like text overlays and drawing rectangles which reduces code complexity and enhances visual output without writing custom OpenCV code for each annotation.\
+**numpy** Essential for array manipulation in image processing, enabling efficient operations like dilation integrating seamlessly with OpenCV.\
+**Why Grayscale & Thresholding:** Simplifies image data for detecting occupancy by reducing unnecessary color information and improving contrast.\
+**Why Pixel Count:** A simple, fast method to determine if a parking space is free based on pixel activity, avoiding the complexity of object detection.\
+**Why Rectangle detection:** using predefined coordinates is more efficient than dynamic detection and avoids the complexity of training a machine learning model, offering a simpler, manually defined solution.\
