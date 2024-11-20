@@ -37,11 +37,11 @@ The system runs in a loop until the user decides to stop it, typically by pressi
 ## Installation
 To run this code, you'll need to install the following dependencies:
 
-*pip install cvzone (1.6.1)*
+*pip install cvzone==1.6.1*
 
-*pip install numpy (2.1.3)*
+*pip install numpy==2.1.3*
 
-*pip install opencv-python (4.10.0.84)*
+*pip install opencv-python==4.10.0.84*
 
 *Pickle* - A Python module used for saving and loading the parking space positions. (It's part of Python's standard library, so no need for installation.)
 
