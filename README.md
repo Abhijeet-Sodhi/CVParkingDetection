@@ -34,6 +34,15 @@ The positions of parking spaces are stored in a file, so even if the system is r
 **Exit Control:**
 The system runs in a loop until the user decides to stop it, typically by pressing a key, allowing for manual interruption of the process.
 
+## Installation
+To run this code, you'll need to install the following dependencies:
+
+*pip install cvzone (1.6.1)*
+
+*pip install numpy (2.1.3)*
+
+*pip install opencv-python (4.10.0.84)*
+
 ## The Whys:
 **OpenCV** is the go-to library for computer vision, providing efficient tools for video capture, image processing, and object detection (e.g., thresholding, drawing rectangles), making it ideal for this task over alternatives like Pillow or scikit-image.\
 **pickle** serializes Python objects (like parking space positions) to store and reload them easily without the need for complex databases.\
