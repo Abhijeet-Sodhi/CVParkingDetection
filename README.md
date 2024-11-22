@@ -1,15 +1,15 @@
-# CVParkingDetection
+# CVParkingDetection 🚗
 
 This project detects parking space availability in video footage. Users mark parking spaces manually, which are saved. The system then processes each video frame, checks parking occupancy, and displays the status with color-coded spaces (green for free, red for occupied) along with a count of available spaces.
 
-## Credits
+## Credits 🤖
 [![Parking Space Counter using OpenCV Python | Computer Vision](https://img.youtube.com/vi/caKnQlCMIYI&list=LL/0.jpg)](https://www.youtube.com/watch?v=caKnQlCMIYI&list=LL) Murtaza's Workshop - Robotics and AI \
 The base code for this project was adapted from Murtaza's Workshop - Robotics and AI. While the original concept and code were used as a foundation, several modifications were made to suit the specific functionality and features of this parking space detection system.
 
-## Demo
+## Demo 🎬
 https://github.com/user-attachments/assets/50507aa6-d0a8-4447-93a2-8eee15d905f2
 
-## Functionality
+## Functionality ⚙️
 The system works as a parking space monitoring solution that processes video footage to detect the availability of parking spaces in a parking lot. Here's how it functions theoretically:
 
 **Video Processing:**
@@ -35,7 +35,7 @@ The positions of parking spaces are stored in a file, so even if the system is r
 **Exit Control:**
 The system runs in a loop until the user decides to stop it, typically by pressing a key, allowing for manual interruption of the process.
 
-## Installation
+## Installation 💻
 To run this code, you'll need to install the following dependencies:
 
 *pip install cvzone==1.6.1*
@@ -46,7 +46,7 @@ To run this code, you'll need to install the following dependencies:
 
 *Pickle* - A Python module used for saving and loading the parking space positions. (It's part of Python's standard library, so no need for installation.)
 
-## The Whys:
+## The Whys: ❓
 **OpenCV** is the go-to library for computer vision, providing efficient tools for video capture, image processing, and object detection (e.g., thresholding, drawing rectangles), making it ideal for this task over alternatives like Pillow or scikit-image.\
 **pickle** serializes Python objects (like parking space positions) to store and reload them easily without the need for complex databases.\
 **cvzone** A higher-level OpenCV wrapper that simplifies tasks like text overlays and drawing rectangles which reduces code complexity and enhances visual output without writing custom OpenCV code for each annotation.\
